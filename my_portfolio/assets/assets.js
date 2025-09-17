@@ -96,6 +96,7 @@ export const assets = {
     Tailwind,
     python,
     sajin,
+    user_sajin,
 };
 
 export const workData = [
