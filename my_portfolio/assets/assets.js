@@ -49,6 +49,7 @@ import user_sajin from './user_sajin.png';
 
 
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -97,6 +98,8 @@ export const assets = {
     python,
     sajin,
     user_sajin,
+   
+    
 };
 
 export const workData = [
