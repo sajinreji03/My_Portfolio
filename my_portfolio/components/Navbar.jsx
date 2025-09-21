@@ -26,7 +26,7 @@ const Navbar = () => {
               <span className="text-red-600">.</span>
              </div>
         
-        <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-100 '>
+        <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/50 shadow-sm '>
             <li><a className='font-Ovo' href='#top'>Home</a></li>
             <li><a className='font-Ovo' href='#about'>About me</a></li>
             <li><a className='font-Ovo' href='#projects'>My Projects</a></li>

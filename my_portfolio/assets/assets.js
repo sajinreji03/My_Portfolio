@@ -46,6 +46,11 @@ import Tailwind from './Tailwind.png';
 import python from './python.png';
 import sajin from './sajin.jpg';
 import user_sajin from './user_sajin.png';
+import github from './github.png';
+import mysql from './mysql.png';
+import shadcn from './shadcn.png';
+
+
 
 
 
@@ -98,6 +103,10 @@ export const assets = {
     python,
     sajin,
     user_sajin,
+    github,
+    mysql,
+    shadcn,
+    
    
     
 };
@@ -133,11 +142,13 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, TypeScript, React Js, Next Js, Node Js, Express.Js, Tailwind CSS, C/C++, Python, MYSQL, MongoDB ' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Applications' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.htmlcssjs, assets.nextjs, assets.react, assets.Node, assets.express, 
+    assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git, assets.github, assets.shadcn,
+      
 ];
