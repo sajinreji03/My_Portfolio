@@ -49,6 +49,8 @@ import user_sajin from './user_sajin.png';
 import github from './github.png';
 import mysql from './mysql.png';
 import shadcn from './shadcn.png';
+import motion from './motion.png';
+
 
 
 
@@ -106,6 +108,7 @@ export const assets = {
     github,
     mysql,
     shadcn,
+    motion,
     
    
     
@@ -149,6 +152,6 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.htmlcssjs, assets.nextjs, assets.react, assets.Node, assets.express, 
-    assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git, assets.github, assets.shadcn,
+    assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git, assets.github, assets.shadcn, assets.motion,
       
 ];
