@@ -8,7 +8,7 @@ const Work = () => {
        <h2 className='text-center text-5xl font-Ovo  '>My Projects</h2>
        <p className='text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo'>
         Welcome to my web development portfolio! Here you will find a showcase of projects
-         that highlight my skills in front-end and full-stack development.</p>
+         that highlight my skills in Front-end and Full-stack web development.</p>
 
        <div className='grid grid-cols-1 sm:grid-cols-4 my-10 gap-5'>
         {workData.map((project, index)=>(

@@ -50,6 +50,8 @@ import github from './github.png';
 import mysql from './mysql.png';
 import shadcn from './shadcn.png';
 import motion from './motion.png';
+import vercel from './vercel.png';
+
 
 
 
@@ -109,6 +111,7 @@ export const assets = {
     mysql,
     shadcn,
     motion,
+    vercel,
     
    
     
@@ -116,24 +119,24 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'My_Portfolio',
+        description: 'Portfolio Website',
+        bgImage: '/myportfolio.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'ThinkBoard',
+        description: 'Smartboard web',
+        bgImage: '/thinkboard.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'LamaAI',
+        description: 'Chatbot Application',
+        bgImage: '/lama.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Weather App',
+        description: 'Weatherly Design',
+        bgImage: '/weather.png',
     },
 ];
 
@@ -146,6 +149,7 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.htmlcssjs, assets.nextjs, assets.react, assets.Node, assets.express, 
-    assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git, assets.github, assets.shadcn, assets.motion,
+    assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git,
+     assets.github, assets.shadcn, assets.motion,assets.vercel,
       
 ];
