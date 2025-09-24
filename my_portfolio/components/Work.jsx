@@ -35,8 +35,8 @@ const Work = () => {
        </div>
 
         <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
-        py-2 px-8 mx-auto my-12 hover:bg-cyan-100 duration-500'>
-           Show More <Image src={assets.right_arrow_bold} alt='rightarrow' className='w-4' />        </a>
+        py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500'>
+           Show More <Image src={assets.right_arrow_bold} alt='rightarrow' className='w-4' />  </a>
 
     </div>
   )

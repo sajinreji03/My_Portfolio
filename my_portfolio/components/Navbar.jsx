@@ -35,7 +35,7 @@ const Navbar = () => {
         
              <div  className="text-3xl font-semibold cursor-pointer mr-14">
               SAJIN
-              <span className="text-red-600">.</span>
+              <span className="text-red-600 text-4xl">.</span>
              </div>
         
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white/50 shadow-sm"}  `}>
