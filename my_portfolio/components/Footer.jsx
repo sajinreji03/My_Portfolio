@@ -11,7 +11,7 @@ const Footer = () => {
 
               <div className='w-max flex items-center gap-2 mx-auto'>
                 <Image src={assets.mail_icon} alt='mail icon' className='w-6' />
-                <span className='text-lg font-serif'><a target='_blank' href='https://mail.google.com/mail/u/1/#inbox'>sajinreji03@gmail.com</a></span>
+                <span className='text-lg font-medium font-serif'><a target='_blank' href='https://mail.google.com/mail/u/1/#inbox'>sajinreji03@gmail.com</a></span>
               </div>
              </div>
                  
