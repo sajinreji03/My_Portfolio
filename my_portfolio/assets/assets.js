@@ -46,7 +46,6 @@ import Tailwind from './Tailwind.png';
 import python from './python.png';
 import sajin from './sajin.jpg';
 import user_sajin from './user_sajin.png';
-import github from './github.png';
 import mysql from './mysql.png';
 import shadcn from './shadcn.png';
 import motion from './motion.png';
@@ -111,7 +110,6 @@ export const assets = {
     python,
     sajin,
     user_sajin,
-    github,
     mysql,
     shadcn,
     motion,
@@ -157,6 +155,6 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.htmlcssjs, assets.nextjs, assets.react, assets.Node, assets.express, 
     assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git,
-     assets.github, assets.shadcn, assets.motion,assets.vercel,
+     assets.github1, assets.shadcn, assets.motion,assets.vercel,
       
 ];
