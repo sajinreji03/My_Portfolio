@@ -9,7 +9,7 @@ const About = () => {
 
       <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
         
-        <div className='w-64 sm:w-80  rounded-3xl max-w-none -mt-14 lg:-mt-60   '>
+        <div className='w-64 sm:w-80  rounded-3xl max-w-none -mt-14 lg:-mt-80   '>
             <Image src={assets.user_sajin} alt='user' className='w-full rounded-3xl'/>
         </div>
         <div className='flex-1 -mt-14'>

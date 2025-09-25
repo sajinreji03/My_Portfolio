@@ -17,11 +17,23 @@ const Footer = () => {
                  
                  <div className='text-center sm:flex items-center justify-between mt-12 border-t border-gray-500 mx-[10%] py-6'>
                     <p>© 2025 Sajin Reji . All Rights Reserved</p>
-                    <ul className='flex items-center justify-center gap-10 mt-4 sm:mt-0'>
-                        <li><a target='_blank' href='https://github.com/sajinreji03'>GitHub</a></li>
-                        <li><a target='_blank' href='https://linkedin.com/in/sajinreji'>LinkedIn</a></li> 
-                        <li><a target='_blank' href='https://instagram.com/sajin_reji_23?igsh=MTRucmplZjJ5MnhpZA=='>Instagram</a></li>
-                    </ul>
+                   <ul className="flex items-center justify-center gap-10 mt-4 sm:mt-0">
+                        <li className="flex items-center">
+                          <Image src={assets.github} alt="github icon" className="w-10 h-10" />
+                          <a target="_blank" href="https://github.com/sajinreji03">GitHub</a>
+                        </li>
+
+                        <li className="flex items-center">
+                          <Image src={assets.github} alt="linkedin icon" className="w-10 h-10" />
+                          <a target="_blank" href="https://linkedin.com/in/sajinreji">LinkedIn</a>
+                        </li>
+
+                        <li className="flex items-center">
+                          <Image src={assets.github} alt="instagram icon" className="w-10 h-10" />
+                          <a target="_blank" href="https://instagram.com/sajin_reji_23?igsh=MTRucmplZjJ5MnhpZA==">Instagram</a>
+                        </li>
+                      </ul>
+
                  </div>
 
 
