@@ -19,17 +19,17 @@ const Footer = () => {
                     <p>© 2025 Sajin Reji . All Rights Reserved</p>
                    <ul className="flex items-center justify-center gap-10 mt-4 sm:mt-0">
                         <li className="flex items-center">
-                          <Image src={assets.github} alt="github icon" className="w-10 h-10" />
+                          <Image src={assets.github1} alt="github icon" className="w-5 h-5 mr-1" />
                           <a target="_blank" href="https://github.com/sajinreji03">GitHub</a>
                         </li>
 
                         <li className="flex items-center">
-                          <Image src={assets.github} alt="linkedin icon" className="w-10 h-10" />
+                          <Image src={assets.linkedin} alt="linkedin icon" className="w-5 h-5 mr-1" />
                           <a target="_blank" href="https://linkedin.com/in/sajinreji">LinkedIn</a>
                         </li>
 
                         <li className="flex items-center">
-                          <Image src={assets.github} alt="instagram icon" className="w-10 h-10" />
+                          <Image src={assets.instagram} alt="instagram icon" className="w-5 h-5 mr-1" />
                           <a target="_blank" href="https://instagram.com/sajin_reji_23?igsh=MTRucmplZjJ5MnhpZA==">Instagram</a>
                         </li>
                       </ul>

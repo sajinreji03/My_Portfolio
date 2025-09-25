@@ -51,6 +51,10 @@ import mysql from './mysql.png';
 import shadcn from './shadcn.png';
 import motion from './motion.png';
 import vercel from './vercel.png';
+import linkedin from './linkedin.png';
+import instagram from './instagram.png';
+import github1 from './github1.png';
+
 
 
 
@@ -112,6 +116,9 @@ export const assets = {
     shadcn,
     motion,
     vercel,
+    linkedin,
+    instagram,
+    github1,
     
    
     
