@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-footer-pattern bg-no-repeat bg-center bg-[length:90%_auto]' >
+    <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-footer-pattern bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none' >
         {/* <h4 className='text-center mb-2 text-lg font-Ovo'>Connect With Me</h4> */}
        <h2 className='text-center text-5xl font-Ovo  '>Get in Touch</h2>
        <p className='text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo'>
@@ -40,15 +40,15 @@ const Contact = () => {
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
           <div className='grid grid-cols-2 gap-6 mt-10 mb-8'>
             <input type='text' placeholder='Enter Your Name' required className='flex-1 p-3 outline-none border-[0.5px]
-             border-gray-500 rounded-md bg-white' name='name' /> 
+             border-gray-500 rounded-md bg-white dark:bg-violet-950/30 dark:border-white/90' name='name' /> 
             <input type='email' placeholder='Enter Your Email' required className='flex-1 p-3 outline-none border-[0.5px]
-             border-gray-500 rounded-md bg-white' name='email'/>
+             border-gray-500 rounded-md bg-white dark:bg-violet-950/30 dark:border-white/90' name='email'/>
 
           </div>
           <textarea rows={6} placeholder='Enter Your Message' required className='w-full p-4 outline-none border-[0.5px]
-           border-gray-500 rounded-md bg-white mb-6' name='message'></textarea>
+           border-gray-500 rounded-md bg-white mb-6 dark:bg-violet-950/30 dark:border-white/90' name='message'></textarea>
           <button type='submit' className='py-2 px-6 w-max flex items-center justify-between gap-2 bg-black/80 text-white 
-          rounded-full mx-auto hover:bg-black duration-500'>Submit now <Image src={assets.right_arrow_white} alt='rightarrow' className='w-4' /></button>
+          rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-violet-950'>Submit now <Image src={assets.right_arrow_white} alt='rightarrow' className='w-4' /></button>
           
           <p className='mt-4'>{result}</p>
         

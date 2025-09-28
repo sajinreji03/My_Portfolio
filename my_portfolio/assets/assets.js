@@ -38,7 +38,6 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 import express from './express.png';
 import htmlcssjs from './htmlcssjs.png';
-import nextjs from './nextjs.png';
 import Node from './Node.png';
 import react from './react.png';
 import typescript from './typescript.png';
@@ -53,6 +52,9 @@ import vercel from './vercel.png';
 import linkedin from './linkedin.png';
 import instagram from './instagram.png';
 import github1 from './github1.png';
+import Next from './Next.png';
+
+
 
 
 
@@ -102,7 +104,6 @@ export const assets = {
     right_arrow_bold_dark,
     express,
     htmlcssjs,
-    nextjs,
     Node,
     react,
     typescript,
@@ -117,6 +118,11 @@ export const assets = {
     linkedin,
     instagram,
     github1,
+    Next,
+    
+    
+    
+    
     
    
     
@@ -153,7 +159,7 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.htmlcssjs, assets.nextjs, assets.react, assets.Node, assets.express, 
+    assets.vscode, assets.htmlcssjs, assets.Next, assets.react, assets.Node, assets.express, 
     assets.typescript, assets.Tailwind, assets.python, assets.mongodb,assets.mysql, assets.git,
      assets.github1, assets.shadcn, assets.motion,assets.vercel,
       

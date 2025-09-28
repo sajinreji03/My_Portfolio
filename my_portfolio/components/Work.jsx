@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, workData } from '@/assets/assets'
 
-const Work = () => {
+const Work = ({isDarkMode}) => {
   return (
     <div id='projects' className='w-full px-[12%] py-10 scroll-mt-20 lg:mt-6  '>
        <h2 className='text-center text-5xl font-Ovo  '>My Projects</h2>
@@ -10,7 +10,7 @@ const Work = () => {
         Welcome to my web development portfolio! Here you will find a showcase of projects
          that highlight my skills in Front-end and Full-stack web development.</p>
 
-       <div className='grid grid-cols-1 sm:grid-cols-4 my-10 gap-5'>
+       <div className='grid grid-cols-1 sm:grid-cols-4 my-10 gap-5 dark:text-black'>
         {workData.map((project, index)=>(
             <div key={index} 
             className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
@@ -21,7 +21,7 @@ const Work = () => {
                     <h2 className='font-semibold'>
                         {project.title}
                     </h2>
-                    <p className='text-sm text-gray-800'>
+                    <p className='text-sm text-gray-900'>
                         {project.description}
                     </p>
                  </div>
@@ -35,8 +35,8 @@ const Work = () => {
        </div>
 
         <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
-        py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500'>
-           Show More <Image src={assets.right_arrow_bold} alt='rightarrow' className='w-4' />  </a>
+        py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500 dark:text-white dark:border-white dark:hover:bg-violet-950'>
+           Show More <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='rightarrow' className='w-4' />  </a>
 
     </div>
   )
