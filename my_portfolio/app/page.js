@@ -12,10 +12,10 @@ export default function Home() {
 
   // On first load, check saved theme or system preference
   useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
     if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      storedTheme === "dark" ||
+      (!storedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       setIsDarkMode(true);
     } else {
@@ -24,16 +24,15 @@ export default function Home() {
   }, []);
 
   // Apply dark / light mode to <html>
-  useEffect(() => {
+   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      localStorage.theme = "dark";
+      localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
-      localStorage.theme = "light"; // ✅ clearer
+      localStorage.setItem("theme", "light");
     }
   }, [isDarkMode]);
-
   return (
     <>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />

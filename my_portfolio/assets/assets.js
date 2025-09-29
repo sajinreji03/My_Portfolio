@@ -133,21 +133,25 @@ export const workData = [
         title: 'My_Portfolio',
         description: 'Portfolio Website',
         bgImage: '/myportfolio.png',
+        link: 'https://github.com/sajinreji03/My_Portfolio',
     },
     {
         title: 'ThinkBoard',
         description: 'Smartboard web',
         bgImage: '/thinkboard.png',
+        link: 'https://github.com/sajinreji03/thinkboard',
     },
     {
         title: 'LamaAI',
         description: 'Chatbot Application',
         bgImage: '/lama.png',
+        link: 'https://github.com/sajinreji03/LamaAi', 
     },
     {
         title: 'Weather App',
         description: 'Weatherly Design',
         bgImage: '/weather.png',
+        link: 'https://weatherapp-lake-sigma.vercel.app/',
     },
 ];
 
