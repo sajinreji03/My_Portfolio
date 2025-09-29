@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, workData } from '@/assets/assets'
 
-const Work = ({isDarkMode}) => {
+const Work = () => {
   return (
     <div id='projects' className='w-full px-[12%] py-10 scroll-mt-20 lg:mt-6  '>
        <h2 className='text-center text-5xl font-Ovo  '>My Projects</h2>
@@ -49,7 +49,7 @@ const Work = ({isDarkMode}) => {
 
         <a href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
         py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500 dark:text-white dark:border-white dark:hover:bg-violet-950'>
-           Show More <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='rightarrow' className='w-4' />  </a>
+           Show More <Image src={ assets.right_arrow_bold_dark } alt='rightarrow' className='w-4' />  </a>
 
     </div>
   )

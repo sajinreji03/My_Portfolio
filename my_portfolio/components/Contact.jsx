@@ -22,7 +22,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Form Submitted Successfully.");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-footer-pattern bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none' >
+    <div id='contact' className='w-full px-[12%] py-8 scroll-mt-20 bg-footer-pattern bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none' >
         {/* <h4 className='text-center mb-2 text-lg font-Ovo'>Connect With Me</h4> */}
        <h2 className='text-center text-5xl font-Ovo  '>Get in Touch</h2>
        <p className='text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo'>

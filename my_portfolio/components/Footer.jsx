@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-const Footer = ({isDarkMode}) => {
+const Footer = () => {
   return (
     <div className='mt-20'>
       <div  className="text-3xl font-semibold cursor-pointer text-center">
@@ -10,7 +10,7 @@ const Footer = ({isDarkMode}) => {
               <span className="text-red-600 text-4xl">.</span>
 
               <div className='w-max flex items-center gap-2 mx-auto'>
-                <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='mail icon' className='w-6' />
+                <Image src={ assets.mail_icon} alt='mail icon' className='w-6' />
                 <span className='text-lg font-medium font-serif'><a target='_blank' href='https://mail.google.com/mail/u/1/#inbox'>sajinreji03@gmail.com</a></span>
               </div>
              </div>

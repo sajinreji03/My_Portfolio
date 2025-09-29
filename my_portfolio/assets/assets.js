@@ -64,6 +64,7 @@ import Next from './Next.png';
 
 
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -144,7 +145,7 @@ export const workData = [
     {
         title: 'LamaAI',
         description: 'Chatbot Application',
-        bgImage: '/lama.png',
+        bgImage: '/lamaai.png',
         link: 'https://github.com/sajinreji03/LamaAi', 
     },
     {
