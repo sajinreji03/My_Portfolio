@@ -134,7 +134,7 @@ export const workData = [
         title: 'My_Portfolio',
         description: 'Portfolio Website',
         bgImage: '/myportfolio.png',
-        link: 'https://github.com/sajinreji03/My_Portfolio',
+        link: 'https://my-portfolio-chi-nine-87.vercel.app/',
     },
     {
         title: 'ThinkBoard',
