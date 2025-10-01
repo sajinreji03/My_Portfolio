@@ -19,7 +19,9 @@ const Header = () => {
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
       className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo '>
-            Hii! I'm Sajin Reji <Image src={assets.hand_icon} alt='' className='w-6' /> </motion.h3>
+            Hai ! I'm <span className="bg-gradient-to-r from-[#217bfe] to-[#e55571] bg-clip-text text-transparent text-4xl font-extrabold">
+                SAJIN REJI
+              </span> <Image src={assets.hand_icon} alt='' className='w-7' /> </motion.h3>
 
             <motion.h1
             initial={{y: -30, opacity: 0}}

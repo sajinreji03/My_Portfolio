@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <div className='mt-20'>
       <div  className="text-3xl font-semibold cursor-pointer text-center">
-              SAJIN REJI
+              
+              <span className="bg-gradient-to-r from-[#217bfe] to-[#e55571] bg-clip-text text-transparent font-extrabold">
+                SAJIN REJI
+              </span>
               <span className="text-red-600 text-4xl">.</span>
 
               <div className='w-max flex items-center gap-2 mx-auto'>
