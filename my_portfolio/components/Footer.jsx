@@ -1,6 +1,9 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import Shuffle from '@/components/shuffle'
+
+
 
 const Footer = () => {
 
@@ -11,10 +14,23 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent("Hi, I found yo
     <div className='mt-20'>
       <div  className="text-3xl font-semibold cursor-pointer text-center">
               
-              <span className="bg-gradient-to-r from-[#217bfe] to-[#e55571] bg-clip-text text-transparent font-extrabold">
-                SAJIN REJI
-              </span>
-              <span className="text-red-600 text-4xl">.</span>
+            <Shuffle
+  text="SAJIN REJI"
+  shuffleDirection="right"
+  duration={1}          // slower than 0.5
+  animationMode="random"
+  shuffleTimes={1}
+  ease="power3.out"
+  stagger={0.06}        // slightly slower stagger between letters
+  threshold={0.1}
+  triggerOnce={true}
+  triggerOnHover={false} // constant loop, no hover trigger
+  respectReducedMotion={true}
+  loop={true}           // keep letters moving continuously
+  loopDelay={0}
+/>
+
+
 
               <div className='w-max flex items-center gap-2 mx-auto'>
                 <Image src={ assets.mail_icon} alt='mail icon' className='w-6' />
