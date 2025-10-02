@@ -3,6 +3,10 @@ import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
+
+const phone = "918590825352"; // put your phone with country code, no plus
+const waLink = `https://wa.me/${phone}?text=${encodeURIComponent("Hi, I found you on the website!")}`;
+
   return (
     <div className='mt-20'>
       <div  className="text-3xl font-semibold cursor-pointer text-center">
@@ -31,10 +35,22 @@ const Footer = () => {
                           <a target="_blank" href="https://linkedin.com/in/sajinreji">LinkedIn</a>
                         </li>
 
-                        <li className="flex items-center">
-                          <Image src={assets.instagram} alt="instagram icon" className="w-5 h-5 mr-1" />
-                          <a target="_blank" href="https://instagram.com/sajin_reji_23?igsh=MTRucmplZjJ5MnhpZA==">Instagram</a>
+                       <li className="flex items-center">
+                          <Image
+                            src={assets.watsapp}      // or "/whatsapp.svg" if it's in public/
+                            alt="WhatsApp icon"
+                            className="w-8 h-8"
+                          />
+                          <a
+                            href={waLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Chat on WhatsApp"
+                          >
+                            WhatsApp
+                          </a>
                         </li>
+
                       </ul>
 
                  </div>

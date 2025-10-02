@@ -68,8 +68,8 @@ const Work = () => {
        </motion.div>
 
         <motion.a
-        initial={{ opacity: 0}}
-        whileInView={{ opacity: 1}}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         transition={{duration: 0.5, delay: 0.9}}
         href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
         py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500 dark:text-white dark:border-white dark:hover:bg-violet-950'>

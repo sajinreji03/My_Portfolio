@@ -73,7 +73,7 @@ const Contact = () => {
         onSubmit={onSubmit}
         className="max-w-2xl mx-auto"
       >
-        <div className="grid grid-cols-2 gap-6 mt-10 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-8">
           <motion.input
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

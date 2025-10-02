@@ -53,6 +53,9 @@ import linkedin from './linkedin.png';
 import instagram from './instagram.png';
 import github1 from './github1.png';
 import Next from './Next.png';
+import watsapp from './watsapp.png';
+
+
 
 
 
@@ -120,6 +123,8 @@ export const assets = {
     instagram,
     github1,
     Next,
+    watsapp,
+    
     
     
     
