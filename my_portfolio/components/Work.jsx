@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { assets, workData } from '@/assets/assets'
 import { motion } from "motion/react"
 
 const Work = () => {
+
+const [showMore, setShowMore] = useState(false);
+const displayedProjects = showMore ? workData : workData.slice(0, 4);
+
   return (
     <motion.div
     initial={{opacity: 0}}
@@ -28,7 +32,7 @@ const Work = () => {
        whileInView={{opacity: 1}}
        transition={{duration: 0.6, delay: 0.8}}
        className='grid grid-cols-1 sm:grid-cols-4 my-10 gap-5 dark:text-black'>
-        {workData.map((project, index)=>(
+       {displayedProjects.map((project, index) => (
             <motion.div
             whileHover={{scale: 1.05}}
             transition={{duration: 0.3}}
@@ -66,15 +70,17 @@ const Work = () => {
             </motion.div>
             ))}
        </motion.div>
-
-        <motion.a
+      
+      {!showMore && (
+        <motion.button
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{duration: 0.5, delay: 0.9}}
-        href='' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
-        py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500 dark:text-white dark:border-white dark:hover:bg-violet-950'>
-           Show More <Image src={ assets.right_arrow_bold_dark } alt='rightarrow' className='w-4' />  </motion.a>
-
+         onClick={() => setShowMore(true)}
+         className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full 
+        py-2 px-8 mx-auto my-12 lg:my-10 hover:bg-cyan-100 duration-500 dark:text-white dark:border-white dark:hover:bg-violet-950 cursor-pointer'>
+           Show More <Image src={ assets.right_arrow_bold_dark } alt='rightarrow' className='w-4' />  </motion.button>
+        )}
     </motion.div>
   )
 }

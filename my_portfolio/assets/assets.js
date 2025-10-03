@@ -139,7 +139,7 @@ export const workData = [
         title: 'My_Portfolio',
         description: 'Portfolio Website',
         bgImage: '/myportfolio.png',
-        link: 'https://my-portfolio-chi-nine-87.vercel.app/',
+        link: 'https://sajinreji.vercel.app/',
     },
     {
         title: 'ThinkBoard',
@@ -158,6 +158,12 @@ export const workData = [
         description: 'Weatherly Design',
         bgImage: '/weather.png',
         link: 'https://weatherapp-lake-sigma.vercel.app/',
+    },
+     {
+        title: 'Next-Auth',
+        description: 'Authentication System',
+        bgImage: '/auth.png',
+        link: 'https://github.com/sajinreji03/next-auth',
     },
 ];
 
