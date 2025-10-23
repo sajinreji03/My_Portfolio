@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 const About = () => {
   return (
-    <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20 ' 
+    <motion.div id='about' className='w-full px-[12%] py-12 scroll-mt-16 ' 
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
@@ -28,7 +28,7 @@ const About = () => {
           whileInView={{ opacity: 1, scale: 1}}
           transition={{duration: 0.6}}
         className='w-64 sm:w-80  rounded-3xl max-w-none -mt-14 lg:-mt-80   '>
-            <Image src={assets.user_sajin} alt='user' className='w-full rounded-3xl'/>
+            <Image src={assets.user_sajin} alt='user' className='w-full rounded-3xl' priority/>
         </motion.div>
         <motion.div
           initial={{ opacity: 0}}
@@ -39,8 +39,8 @@ const About = () => {
              <p className='mb-12 font-Ovo max-w-2xl'>
                 I am a passionate and detail-oriented MCA student with hands-on experience in full-stack web development,
                  specializing in the MERN stack, Next.js, and modern UI frameworks. I enjoy building dynamic, 
-                 user-friendly applications and have developed projects ranging from AI-powered chatbots to 
-                 business portals and responsive web apps. With strong problem-solving skills, 
+                 user-friendly applications and have developed projects ranging from AI-powered chatbots
+                 and responsive web apps. With strong problem-solving skills, 
                  a solid foundation in programming, and internship experience as a Next.js Developer, 
                  I am eager to apply my knowledge to create impactful digital solutions while 
                  continuously learning and growing in the tech industry.</p>

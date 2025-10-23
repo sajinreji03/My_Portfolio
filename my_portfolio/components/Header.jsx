@@ -30,7 +30,7 @@ const Header = () => {
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
         >
-          <Image src={assets.sajin} alt="" className="rounded-full w-32" priority />
+          <Image src={assets.sajin} alt="" className="rounded-full w-32" priority/>
         </motion.div>
 
         <motion.h3
