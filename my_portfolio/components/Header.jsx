@@ -12,7 +12,7 @@ const Header = () => {
       {/* Background Beams */}
       <div className="absolute inset-0 z-0">
         <Beams
-          beamWidth={2}
+          beamWidth={3}
           beamHeight={15}
           beamNumber={12}
           lightColor="#ffffff"

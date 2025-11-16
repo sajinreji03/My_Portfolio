@@ -37,13 +37,14 @@ const About = () => {
 
         className='flex-1 -mt-14'>
              <p className='mb-12 font-Ovo max-w-2xl'>
-                I am a passionate and detail-oriented MCA student with hands-on experience in full-stack web development,
-                 specializing in the MERN stack, Next.js, and modern UI frameworks. I enjoy building dynamic, 
+               I am a passionate and detail-oriented MCA student with hands-on experience in full-stack web development,
+                specializing in the MERN stack, Next.js, and modern UI frameworks. I enjoy building dynamic,
                  user-friendly applications and have developed projects ranging from AI-powered chatbots
-                 and responsive web apps. With strong problem-solving skills, 
-                 a solid foundation in programming, and internship experience as a Next.js Developer, 
-                 I am eager to apply my knowledge to create impactful digital solutions while 
-                 continuously learning and growing in the tech industry.</p>
+                  to responsive web apps. During my internship as a Next.js Developer at HASHCOVET,
+                   I contributed to building responsive interfaces, integrating APIs, and converting 
+                   Figma designs into fully responsive, production-ready web pages. With strong problem-solving
+                    skills and a solid foundation in programming, I&apos;m eager to apply my knowledge to create 
+                    impactful digital solutions while continuously learning and growing in the tech industry.</p>
 
                  <motion.ul
                   initial={{ opacity: 0}}

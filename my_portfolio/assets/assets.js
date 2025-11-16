@@ -68,6 +68,7 @@ import watsapp from './watsapp.png';
 
 
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -145,7 +146,7 @@ export const workData = [
         title: 'ThinkBoard',
         description: 'Smartboard web',
         bgImage: '/thinkboard.png',
-        link: 'https://github.com/sajinreji03/thinkboard',
+        link: 'https://mern-thinkboard-keza.onrender.com/',
     },
     {
         title: 'LamaAI',
@@ -165,6 +166,13 @@ export const workData = [
         bgImage: '/auth.png',
         link: 'https://github.com/sajinreji03/next-auth',
     },
+     {
+        title: 'Mern-Auth',
+        description: 'Authentication System',
+        bgImage: '/mernauth.png',
+        link: 'https://github.com/sajinreji03/MERN-AUTH',
+    },
+
 ];
 
 
